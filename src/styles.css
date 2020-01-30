@@ -1,0 +1,154 @@
+* {
+}
+body {
+  max-width: 800px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  background-image: url(/34867415-vintage-old-flower-backgrounds-vintage-effect-style-pictures.jpg);
+}
+p {
+  color: rgb(61, 55, 55);
+  font-size: 15px;
+  text-align: justify;
+}
+dd {
+  color: rgb(61, 55, 55);
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  display: grid;
+  margin: 15px;
+  border: 4px solid #8f6262;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 2px;
+  grid-template-rows: 0.1fr 1fr 3fr 0.1fr;
+  background-color: rgb(255, 255, 255);
+}
+.myimage {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-items: center;
+  align-items: center;
+}
+.myphoto {
+  display: grid;
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+
+  border: 4px solid #8f6262;
+}
+sidebar {
+  padding-left: 20px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.media-icon {
+  padding-top: 20px;
+  display: grid;
+  grid-row-gap: 10px;
+}
+.icon-picture {
+  width: 30px;
+  height: 30px;
+  color: rgb(44, 41, 41);
+}
+.main-items {
+  border-bottom: 1px solid #8f6262;
+}
+.main-items__title {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.main-items__title:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ca6a6a;
+  position: absolute;
+  margin-left: -26px;
+  margin-top: 10px;
+  font-size: 6px;
+}
+main {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 30px;
+  grid-column: 2/4;
+  grid-row: 2/4;
+  border-left: 1px solid #8f6262;
+}
+a {
+  text-decoration: inherit;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #000000;
+}
+a:hover {
+  color: rgb(165, 30, 86);
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Container for skill bars */
+.container-bar {
+  width: 100%;
+  height: 18px;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 10px;
+  height: 3px;
+}
+.headhunting {
+  width: 70%;
+
+  background-color: #6a4281;
+}
+.recruiting {
+  width: 70%;
+
+  background-color: #4f508f;
+}
+.administrator {
+  width: 80%;
+
+  background-color: #476848;
+}
+.html {
+  width: 50%;
+
+  background-color: #69921c;
+}
+.css {
+  width: 50%;
+
+  background-color: #66404c;
+}
+.js {
+  width: 40%;
+
+  background-color: #8d2f2f;
+}

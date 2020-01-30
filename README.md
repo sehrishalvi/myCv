@@ -1,2 +1,0 @@
-# myCv
-Created with CodeSandbox
